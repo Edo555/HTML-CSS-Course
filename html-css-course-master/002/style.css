@@ -84,3 +84,16 @@ aside {
 body {
   /* background-color: ; */
 }
+/* .first-li {
+  font-weight: bold;
+} */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+article p:last-child {
+  color: red;
+}
